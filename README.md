@@ -131,7 +131,7 @@ A continuación, se muestran ejemplos de cómo conectarse a los endpoints de la 
 
 #### Inicio de Sesión
 ```javascript
-fetch('https://jr-backend-technical-test.onrender.com/api/v1/users/login', {
+fetch('https://jr-backend-technical.onrender.com/api/v1/users/login', {
   method: 'POST',
   headers: {
     'Content-Type': 'application/json',
@@ -150,7 +150,7 @@ fetch('https://jr-backend-technical-test.onrender.com/api/v1/users/login', {
 
 #### Obtener todos los usuarios
 ```javascript
-fetch('https://jr-backend-technical-test.onrender.com/api/v1/users')
+fetch('https://jr-backend-technical.onrender.com/api/v1/users')
   .then(response => response.json())
   .then(data => console.log(data))
   .catch(error => console.error('Error:', error));
@@ -158,7 +158,7 @@ fetch('https://jr-backend-technical-test.onrender.com/api/v1/users')
 
 #### Obtener un usuario por ID
 ```javascript
-fetch('https://jr-backend-technical-test.onrender.com/api/v1/users/1', {
+fetch('https://jr-backend-technical.onrender.com/api/v1/users/1', {
   headers: {
     Authorization: 'Bearer your_token',
   },
@@ -170,7 +170,7 @@ fetch('https://jr-backend-technical-test.onrender.com/api/v1/users/1', {
 
 #### Crear un nuevo usuario
 ```javascript
-fetch('https://jr-backend-technical-test.onrender.com/api/v1/users', {
+fetch('https://jr-backend-technical.onrender.com/api/v1/users', {
   method: 'POST',
   headers: {
     'Content-Type': 'application/json',
@@ -188,7 +188,7 @@ fetch('https://jr-backend-technical-test.onrender.com/api/v1/users', {
 
 #### Actualizar un usuario por ID
 ```javascript
-fetch('https://jr-backend-technical-test.onrender.com/api/v1/users/1', {
+fetch('https://jr-backend-technical.onrender.com/api/v1/users/1', {
   method: 'PUT',
   headers: {
     'Content-Type': 'application/json',
@@ -206,7 +206,7 @@ fetch('https://jr-backend-technical-test.onrender.com/api/v1/users/1', {
 
 #### Eliminar un usuario por ID
 ```javascript
-fetch('https://jr-backend-technical-test.onrender.com/api/v1/users/1', {
+fetch('https://jr-backend-technical.onrender.com/api/v1/users/1', {
   method: 'DELETE',
   headers: {
     Authorization: 'Bearer your_token',
